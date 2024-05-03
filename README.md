@@ -46,7 +46,7 @@ cp .env.example .env
 ```
 - Complete your `.env` file with your private settings
 ```
-PROVIDER_URLS="" # your provider URLS seperated by comma (e.g. https://eth-mainnet.alchemyapi.io/v2/YOUR_ALCHEMY_ID,https://eth-goerli.alchemyapi.io/v2/YOUR_ALCHEMY_ID)
+PROVIDER_URLS="" # your provider URLS seperated by comma (e.g. https://rpc.dev.buildbear.io/<NODE ID)
 
 PRIVATE_KEY="" # optional: only needed if you wish to create a task from the CLI instead of the UI
 ```
