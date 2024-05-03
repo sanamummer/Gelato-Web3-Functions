@@ -49,9 +49,7 @@ const main = async () => {
   });
   await tx.wait();
   console.log(`Task created, taskId: ${taskId} (tx hash: ${tx.hash})`);
-  console.log(
-    `> https://beta.app.gelato.network/task/${taskId}?chainId=${chainId}`
-  );
+
 
   // Set secrets
   const { secrets } = Web3FunctionLoader.load(w3fName, w3fRootDir);
