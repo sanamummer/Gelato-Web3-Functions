@@ -46,9 +46,9 @@ cp .env.example .env
 ```
 - Complete your `.env` file with your private settings
 ```
-PROVIDER_URLS="" # your provider URLS seperated by comma (e.g. https://rpc.dev.buildbear.io/<NODE ID)
+PROVIDER_URLS="" # your provider URLS seperated by comma (e.g. https://rpc.buildbear.io/sanam)
 
-PRIVATE_KEY="" # optional: only needed if you wish to create a task from the CLI instead of the UI
+PRIVATE_KEY="" # optional: only needed if you wish to create a task from the CLI(e.g. 670e8f5f547a3bc4bd1869d473591ff10f6cf0d69a254257b612ca3f244ef188)
 ```
 
 
